@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c7e2f8" stop-opacity="0.90"/>
+      <stop offset="1" stop-color="#7fb9e6" stop-opacity="0.82"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#93c7ee" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#2f7fb8" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="w3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5aa7dd" stop-opacity="0.70"/>
+      <stop offset="1" stop-color="#1d3e72" stop-opacity="0.78"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back sweep (rises toward the right) -->
+  <path d="
+    M1200 600
+    H0
+    V420
+    C 180 440, 360 450, 520 430
+    C 720 405, 880 345, 1020 290
+    C 1100 260, 1160 240, 1200 230
+    Z"
+    fill="url(#w1)"/>
+
+  <!-- Mid sweep -->
+  <path d="
+    M1200 600
+    H0
+    V470
+    C 190 485, 380 490, 540 470
+    C 730 445, 900 385, 1030 330
+    C 1110 298, 1165 275, 1200 265
+    Z"
+    fill="url(#w2)"/>
+
+  <!-- Front sweep -->
+  <path d="
+    M1200 600
+    H0
+    V520
+    C 200 530, 395 535, 565 515
+    C 760 490, 930 435, 1060 385
+    C 1125 360, 1170 342, 1200 335
+    Z"
+    fill="url(#w3)"/>
+</svg>
