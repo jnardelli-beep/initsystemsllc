@@ -1,25 +1,23 @@
-# Init Systems LLC Static Site
+# Init Systems LLC — Static Site
 
-This repository contains a simple, professional static website for Init Systems LLC.
-It is intended as an internal company presence and documentation surface rather than
-marketing material.
+This repo contains a simple static HTML/CSS website for Init Systems LLC.
 
 ## Structure
+- `index.html` — Home
+- `about.html` — About
+- `projects.html` — Projects
+- `infrastructure.html` — Infrastructure
+- `legal.html` — Legal
+- `assets/css/style.css` — Styles
+- `assets/images/` — Local SVG assets (logo, waves, favicon)
 
-- `index.html` — Home page with mission and focus areas.
-- `about.html` — Background on the LLC and its purpose.
-- `projects.html` — High-level project placeholders.
-- `infrastructure.html` — Overview of infrastructure practices.
-- `legal.html` — Legal and privacy statements.
-- `assets/css/style.css` — Shared styles for all pages.
+## Local preview
+Open `index.html` directly in a browser, or serve the folder:
 
-## Editing
+- Python: `python -m http.server 8080`
 
-1. Update the HTML files for content changes.
-2. Adjust styles in `assets/css/style.css` as needed.
-3. Keep navigation and footer consistent across pages.
+Then browse to `http://localhost:8080`.
 
-## Deployment
-
-This is a static site. Deploy by serving the repository contents with any static file
-host or object storage service. No build step is required.
+## Notes
+- No external libraries or CDNs.
+- Decorative graphics are SVG-based (see `assets/images/waves.svg`).
